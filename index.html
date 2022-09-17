@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Password generator app</title>
+</head>
+<body>
+  <header>
+    <h1>Password Generator</h1>
+  </header>
+  <main>
+    <section class="generated-code">
+      <h1></h1>
+      <div class="copy-button"><img src="assets/images/icon-copy.svg" alt=""></div>
+    </section>
+    <section class="options">
+      <form action="">
+        <div class="slider">
+          <label for=""><p>Character Length</p><h1>10</h1></label>
+          <input type="range" name="" id="" min ="6" max = "20">
+        </div>
+        <label><input type="checkbox" name="" id="">Include Uppercase Letters</label>
+        <label><input type="checkbox" name="" id="">Include Lowercase Letters</label>
+        <label><input type="checkbox" name="" id="">Include Numbers</label>
+        <label><input type="checkbox" name="" id="">Include Symbols</label>
+      </form>
+      <div class="strength">
+        <p class="label">STRENGTH</p>
+        <div class="graphic">
+          <p class="strength-level">MEDIUM</p>
+          <div class="strength-bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="generate-button"><p>Generate</p><img src="assets/images/icon-arrow-right.svg" alt=""></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
