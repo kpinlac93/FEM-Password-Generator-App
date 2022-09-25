@@ -54,6 +54,7 @@ function getRandomInt(max) {
   }
 function generatePassword() {
     if (!document.querySelectorAll("input[type='checkbox']")[0].checked && !document.querySelectorAll("input[type='checkbox']")[1].checked && !document.querySelectorAll("input[type='checkbox']")[2].checked && !document.querySelectorAll("input[type='checkbox']")[3].checked) {
+        alert("No Checkboxes checked")
         return
     }
     var lowerLetters = "abcdefghijklmnopqrstuvwxyz";

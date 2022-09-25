@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(230, 255, 218);
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -23,9 +24,10 @@ main {
 .generated-code {
     display: flex;
     justify-content: space-between;
-    background-color: #97979763;
+    background-color: #90a59056;
     padding: 25px;
     width: 540px;
+    border-radius: 10px;
 }
 .copy-button {
     cursor: pointer;
@@ -34,9 +36,10 @@ main {
 .options {
     display: flex;
     flex-direction: column;
-    background-color: #97979763;
+    background-color: #90a59056;
     padding: 25px;
     gap: 30px;
+    border-radius: 10px;
 }
 .options form {
     display: flex;
@@ -62,8 +65,9 @@ form > label {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(34, 41, 35);
     padding: 20px 30px;
+    border-radius: 5px;
 }
 .graphic {
     display: flex;
@@ -94,6 +98,7 @@ form > label {
     justify-content: center;
     gap: 25px;
     cursor: pointer;
+    border-radius: 5px;
 }
 .generate-button p {
     color: black;
